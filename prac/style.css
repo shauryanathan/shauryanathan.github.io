@@ -1,0 +1,101 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: 'Poppins', sans-serif;
+	color: white;
+}
+a{
+	text-decoration: none;
+}
+nav{
+	position: fixed;
+	z-index: 1000;
+	font-size: 1.5rem;
+	padding-top: 15px;
+}
+nav li{
+	display: inline;
+	padding-left: 120px;
+}
+nav ul{
+	padding-left: 1200px;
+}
+.main{
+	height: 100vh;
+	width: 100vw;
+	background: linear-gradient(180deg, rgba(69,16,138,1) 0%, rgba(61,6,95,1) 30%, rgba(16,5,77,1) 100%);
+	text-align: center;
+}
+.main h1{
+	padding-top: 20%;
+	animation-name: appear;
+	animation-duration: 2s;
+	animation-direction: forwards;
+	color: white;
+	font-size: 3rem;
+	padding-bottom: 2%;
+}
+.main img{
+	padding-top: 2%;
+}
+@keyframes appear{
+	0%{
+		transform: translateY(-20px);
+		opacity: 0;
+	}
+	100%{
+		transform: translateY(0px);
+		opacity: 1;
+	}
+}
+.main hr{
+	text-align: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 70%;
+	animation-name: expand;
+	animation-duration: 2s;
+	animation-direction: forwards;
+}
+@keyframes expand{
+	0%{
+		width: 0%;
+		opacity: 0;
+	}
+	100%{
+		width: 70%;
+		opacity: 1;
+	}
+}
+.about{
+	background-color: #10054d;
+	height: 100vh;
+}
+.about img{
+	height: 400px;
+	padding-left: 15%;
+	float: left;
+	transform: translateY(-20px);
+	opacity: 0;
+	transition: ease-in-out 2s;
+
+}
+.about img.is-showing{
+	transform: translateY(0px);
+	opacity: 1;
+}
+.about h1{
+	font-size: 3.5rem;
+	padding-left: 50%;
+}
+.about p{
+	padding-top: 5%;
+	padding-left: 50%;
+	padding-right: 14%;
+	font-size: 1.3rem;
+}
+figure{
+	text-align: center;
+	padding-top: 15%;
+}
