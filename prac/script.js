@@ -30,3 +30,14 @@ $(document).ready(function(){
 			}
 	})
 })
+
+$(document).ready(function(){
+	$(window).scroll(function(){
+		var wScroll = $(this).scrollTop();
+			if (wScroll > $('.table').offset().top - ($(window).height() / 2)) {
+				$('.table table').each(function(){
+					$('.table table').addClass('is-showing')
+				})
+			}
+	})
+})
