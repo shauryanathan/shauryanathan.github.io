@@ -161,6 +161,7 @@ input[type=text]{
 input[type=text]:focus {
 	outline: none; 
 	transform: translateY(-12px);
+	border-bottom: 2px solid #32a852;
 }
 form{
 	box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
@@ -186,6 +187,7 @@ textarea{
 textarea:focus{
 	outline: none;
 	transform: translateY(-12px);
+	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
 input[type=radio]{
 	display: inline;
