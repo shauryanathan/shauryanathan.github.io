@@ -172,9 +172,8 @@ form{
 
 }
 textarea{
-		transition: ease-in-out , 0.2s;
-
-	margin-top: 2%;
+	transition: ease-in-out , 0.2s;
+	margin-top: 5%;
 	resize: none;
 	height: 200px;
 	width: 50%;	
@@ -182,6 +181,7 @@ textarea{
 	border: none;
 	background-color: #ededed;
 	border-radius: 1%;
+	margin-bottom: 5%;
 }
 textarea:focus{
 	outline: none;
