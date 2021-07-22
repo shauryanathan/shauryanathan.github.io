@@ -44,9 +44,24 @@ canvas{
 }
 
 
+
+
+/* ---- particles.js container ---- */
+
+#particles-js{
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  background-image: url('');
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+
+
 /* ---- stats.js ---- */
 
-.count-particles{
+/* .count-particles{
   background: #000022;
   position: absolute;
   top: 48px;
@@ -80,17 +95,4 @@ canvas{
 
 .count-particles{
   border-radius: 0 0 3px 3px;
-}
-
-
-/* ---- particles.js container ---- */
-
-#particles-js{
-  width: 100%;
-  height: 100%;
-  background-color: #b61924;
-  background-image: url('');
-  background-size: cover;
-  background-position: 50% 50%;
-  background-repeat: no-repeat;
-}
+} */
