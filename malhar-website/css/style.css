@@ -199,14 +199,14 @@ canvas {
   position: fixed;
   text-align: center;
   width: 100vw;
-  padding-top: 25vh;
+  margin-top: 27vh;
   z-index: 10;
 }
 
 .header h1 {
   color: white;
   font-size: 10vh;
-  font-family: "Overpass", sans-serif;
+  font-family: 'Krona One', sans-serif;
   animation-name: emerge;
   animation-duration: 2.5s;
 }
@@ -249,6 +249,8 @@ canvas {
   opacity: 1;
 }
 
+
+
 nav {
   position: absolute;
   z-index: 5;
@@ -256,19 +258,44 @@ nav {
 }
 ul {
   padding: 2%;
-  margin-left: 32%;
 }
 li {
-  font-size: 2vh;
+  font-size: 1vw;
   display: inline;
   padding: 1%;
   margin-left: 5%;
 }
 a {
+  font-family: "Overpass", sans-serif;
+
   text-decoration: none;
   color: white;
 }
+.hover-underline-animation {
+  display: inline-block;
+  position: relative;
+  color: white;
+}
 
+.hover-underline-animation:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #ffcb9a;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+.hover-underline-animation:hover{
+  color: #ffcb9a;
+}
+.hover-underline-animation:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
 /* ---- stats.js ---- */
 
 /* .count-particles{
