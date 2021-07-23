@@ -190,14 +190,17 @@ canvas {
 #header,
 #particles-js {
   position: absolute;
+
+  
 }
 
 
 .header {
-  position: absolute;
+  position: fixed;
   text-align: center;
   width: 100vw;
   padding-top: 25vh;
+  z-index: 10;
 }
 
 .header h1 {
