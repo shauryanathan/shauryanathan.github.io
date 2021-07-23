@@ -190,10 +190,7 @@ canvas {
 #header,
 #particles-js {
   position: absolute;
-
-  
 }
-
 
 .header {
   position: fixed;
@@ -205,8 +202,8 @@ canvas {
 
 .header h1 {
   color: white;
-  font-size: 10vh;
-  font-family: 'Krona One', sans-serif;
+  font-size: 6vh;
+  font-family: "Krona One", sans-serif;
   animation-name: emerge;
   animation-duration: 2.5s;
 }
@@ -249,8 +246,6 @@ canvas {
   opacity: 1;
 }
 
-
-
 nav {
   position: absolute;
   z-index: 5;
@@ -277,25 +272,15 @@ a {
   color: white;
 }
 
-.hover-underline-animation:after {
-  content: '';
-  position: absolute;
-  width: 100%;
-  transform: scaleX(0);
-  height: 2px;
-  bottom: 0;
-  left: 0;
-  background-color: #ffcb9a;
-  transform-origin: bottom right;
-  transition: transform 0.25s ease-out;
+
+
+@media (min-width: 414px) {
+  .header h1{
+    font-size: 10vh;
+  }
+ 
 }
-.hover-underline-animation:hover{
-  color: #ffcb9a;
-}
-.hover-underline-animation:hover:after {
-  transform: scaleX(1);
-  transform-origin: bottom left;
-}
+
 /* ---- stats.js ---- */
 
 /* .count-particles{
