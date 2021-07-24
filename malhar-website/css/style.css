@@ -202,6 +202,10 @@ canvas {
   z-index: 10;
 }
 
+.header:hover{
+  cursor: default;
+}
+
 .header h1 {
   color: white;
   font-size: 6vh;
@@ -429,7 +433,7 @@ nav {
     font-size: 1vw;
     display: inline;
     padding: 1%;
-    margin-left: 5%;
+    margin-left: 4.1%;
   }
   a {
     font-family: "Overpass", sans-serif;
