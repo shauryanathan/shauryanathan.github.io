@@ -13,3 +13,15 @@ $(document).ready(function(){
 
 	 setTimeout(changeTwo, 1200)
 })
+
+$(document).ready(function(){
+	$('.click').click(function(){
+		$('.collapse').toggleClass('is-clicked')
+	})
+
+})
+$(document).ready(function(){
+	$('.click').click(function(){
+		$('.collapse ul').toggleClass('is-clicked')
+	})
+})
