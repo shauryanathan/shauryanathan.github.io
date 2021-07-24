@@ -199,7 +199,7 @@ canvas {
   text-align: center;
   width: 100vw;
   margin-top: 27vh;
-  z-index: 10;
+  z-index: 4;
 }
 
 .header:hover{
@@ -403,6 +403,18 @@ nav {
   }
 }
 
+.collapse{
+  height: 0vh;
+  width: 100vw;
+  background-color: black;
+  position: absolute;
+  z-index: 5;
+  transition: ease-in-out , 0.2s;
+}
+.collapse.is-clicked{
+  height: 100vh;
+}
+
 /* MEDIA FOR EXCEPT MOBILE */
 @media (min-width: 500px) {
   
@@ -414,6 +426,7 @@ nav {
   .toggle {
     visibility: hidden;
     position: absolute;
+    z-index: 120;
   }
   .dribbble {
     visibility: hidden;
