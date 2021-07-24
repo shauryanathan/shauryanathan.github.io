@@ -202,7 +202,7 @@ canvas {
   z-index: 4;
 }
 
-.header:hover{
+.header:hover {
   cursor: default;
 }
 
@@ -403,7 +403,9 @@ nav {
   }
 }
 
-.collapse{
+/* CSS FOR COLAPSE NAV */
+
+.collapse {
   overflow-x: hidden;
   overflow-y: hidden;
   height: 0vh;
@@ -411,38 +413,38 @@ nav {
   background-color: #111111;
   position: absolute;
   z-index: 5;
-  transition: ease-in-out , 0.2s;
+  transition: ease-in-out, 0.2s;
 }
-.collapse.is-clicked{
+.collapse.is-clicked {
   height: 100vh;
 }
 
-.collapse a{
-  font-family: "Overpass" , sans-serif;
+.collapse a {
+  font-family: "Overpass", sans-serif;
   text-decoration: none;
   color: white;
-  font-size: 2.5vh;
+  font-size: 3.5vh;
 }
 
-.collapse ul{
+.collapse ul {
   transform: translateY(-20px);
   opacity: 0;
-  transition: ease-in-out , 0.2s;
+  transition: ease-in-out, 0.2s;
   margin-top: 25%;
   width: 100vw;
   text-align: center;
 }
-.collapse ul.is-clicked{
+
+.collapse ul.is-clicked {
   transform: translateY(0px);
   opacity: 1;
 }
-.collapse li{
+.collapse li {
   margin-top: 8%;
 }
 
 /* MEDIA FOR EXCEPT MOBILE */
 @media (min-width: 500px) {
-  
   .header h1 {
     font-size: 10vh;
   }
