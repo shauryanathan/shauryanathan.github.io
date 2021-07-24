@@ -10,3 +10,6 @@ var animate = setInterval(() => {
 document.querySelector('body').addEventListener('click', () => {
   clearInterval(animate);
 })
+
+
+
