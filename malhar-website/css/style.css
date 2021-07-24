@@ -406,13 +406,34 @@ nav {
 .collapse{
   height: 0vh;
   width: 100vw;
-  background-color: black;
+  background-color: #111111;
   position: absolute;
   z-index: 5;
   transition: ease-in-out , 0.2s;
 }
 .collapse.is-clicked{
   height: 100vh;
+}
+
+.collapse a{
+  text-decoration: none;
+  color: white;
+}
+
+.collapse ul{
+  transform: translateY(-20px);
+  opacity: 0;
+  transition: ease-in-out , 0.2s;
+  margin-top: 25%;
+  width: 100vw;
+  text-align: center;
+}
+.collapse ul.is-clicked{
+  transform: translateY(0px);
+  opacity: 1;
+}
+.collapse li{
+  margin-top: 8%;
 }
 
 /* MEDIA FOR EXCEPT MOBILE */

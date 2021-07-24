@@ -18,5 +18,10 @@ $(document).ready(function(){
 	$('.click').click(function(){
 		$('.collapse').toggleClass('is-clicked')
 	})
-	console.log('ready')
+
+})
+$(document).ready(function(){
+	$('.click').click(function(){
+		$('.collapse ul').toggleClass('is-clicked')
+	})
 })
