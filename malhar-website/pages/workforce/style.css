@@ -431,3 +431,11 @@
      }
    }
    
+   #main h1{
+     font-family: "Krona One", sans-serif;
+     color: white;
+     width: 100vw;
+     text-align: center;
+     margin-top: 15vh;
+     font-size: 6vh;
+   }
