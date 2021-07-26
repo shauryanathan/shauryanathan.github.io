@@ -455,6 +455,12 @@
     font-weight: light;
     text-align: center;
     padding-top: 12vh;
-    font-size: 10vh;
+    font-size: 6vh;
     
+}
+
+@media (max-width: 500px) {
+    .section h1{
+        font-size: 4vh;
+    }
 }
