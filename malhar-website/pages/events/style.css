@@ -430,17 +430,17 @@
      }
    }
 .one{
-    background-color: red;
+    background-color: black;
 }
 
 .two{
-    background-color: green;
+    background-color: black;
 }
 .three{
-    background-color: blue;
+    background-color: black;
 }
 .four{
-    background-color: yellow;
+    background-color: black;
 }
 .section{
     height: 100vh;
