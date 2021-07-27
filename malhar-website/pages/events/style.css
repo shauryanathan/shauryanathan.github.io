@@ -443,9 +443,12 @@ a {
     height: 0vh;
     width: 100vw;
     background-color: #111111;
-    position: absolute;
+    position: fixed;
     z-index: 5;
     transition: ease-in-out, 0.2s;
+  }
+  .toggle{
+    position: fixed;
   }
   .collapse.is-clicked {
     height: 100vh;
