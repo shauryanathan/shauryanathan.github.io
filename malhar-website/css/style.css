@@ -198,11 +198,22 @@ canvas {
   position: fixed;
   text-align: center;
   width: 100vw;
-  margin-top: 27vh;
+  margin-top: 15vh;
   z-index: 4;
 }
+.logo_container {
+  position: relative;
+  width: 100vw;
+  height: 20%;
+  text-align: center;
+}
+.logo {
+  width: 50%;
+  height: 100%;
+  
+}
 
-.header:hover{
+.header:hover {
   cursor: default;
 }
 
@@ -213,7 +224,6 @@ canvas {
   animation-name: emerge;
   animation-duration: 2.5s;
   font-weight: bolder;
-  
 }
 
 @keyframes emerge {
@@ -234,7 +244,7 @@ canvas {
   transform: translateY(-20px);
   opacity: 0;
   transition: ease-in-out, 3s;
-  font-weight:lighter;
+  font-weight: lighter;
   letter-spacing: 12px;
 }
 .header h2.is-showing {
@@ -250,7 +260,6 @@ canvas {
   transition: ease-in, 2s;
   letter-spacing: 7.5px;
   font-weight: lighter;
-
 }
 
 .header h3.is-showing {
@@ -265,6 +274,43 @@ nav {
   visibility: hidden;
   position: absolute;
 }
+.collapse {
+  overflow-x: hidden;
+  overflow-y: hidden;
+  height: 0vh;
+  width: 100vw;
+  background-color: #111111;
+  position: absolute;
+  z-index: 5;
+  transition: ease-in-out, 0.2s;
+}
+.collapse.is-clicked {
+  height: 100vh;
+}
+
+.collapse a {
+  font-family: "Overpass", sans-serif;
+  text-decoration: none;
+  color: white;
+  font-size: 2.5vh;
+}
+
+.collapse ul {
+  transform: translateY(-20px);
+  opacity: 0;
+  transition: ease-in-out, 0.2s;
+  margin-top: 25%;
+  width: 100vw;
+  text-align: center;
+}
+.collapse ul.is-clicked {
+  transform: translateY(0px);
+  opacity: 1;
+}
+.collapse li {
+  margin-top: 8%;
+}
+
 
 /* MEDIA FOR MOBILE ONLY */
 @media (max-width: 500px) {
@@ -411,46 +457,8 @@ nav {
   }
 }
 
-.collapse{
-  overflow-x: hidden;
-  overflow-y: hidden;
-  height: 0vh;
-  width: 100vw;
-  background-color: #111111;
-  position: absolute;
-  z-index: 5;
-  transition: ease-in-out , 0.2s;
-}
-.collapse.is-clicked{
-  height: 100vh;
-}
-
-.collapse a{
-  font-family: "Overpass" , sans-serif;
-  text-decoration: none;
-  color: white;
-  font-size: 2.5vh;
-}
-
-.collapse ul{
-  transform: translateY(-20px);
-  opacity: 0;
-  transition: ease-in-out , 0.2s;
-  margin-top: 25%;
-  width: 100vw;
-  text-align: center;
-}
-.collapse ul.is-clicked{
-  transform: translateY(0px);
-  opacity: 1;
-}
-.collapse li{
-  margin-top: 8%;
-}
-
 /* MEDIA FOR EXCEPT MOBILE */
 @media (min-width: 500px) {
-  
   .header h1 {
     font-size: 10vh;
   }
@@ -513,6 +521,18 @@ nav {
     transform: scaleX(1);
     transform-origin: bottom left;
   }
+
+
+  .logo_container{
+    width: 100vw;
+
+  }
+  .logo{
+    width: 13%;
+    
+  }
+
+
 }
 
 /* ---- stats.js ---- */
