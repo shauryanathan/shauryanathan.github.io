@@ -211,7 +211,6 @@ canvas {
 .logo {
   width: 50%;
   height: 100%;
-  
 }
 
 .header:hover {
@@ -311,7 +310,12 @@ nav {
 .collapse li {
   margin-top: 8%;
 }
-
+.header h2 {
+  font-size: 3.8vh;
+}
+.header h1 {
+  font-size: ;
+}
 
 /* MEDIA FOR MOBILE ONLY */
 @media (max-width: 500px) {
@@ -456,6 +460,14 @@ nav {
     display: block;
     width: 76px;
   }
+
+  .header h3 {
+    font-size: 8vh;
+  }
+
+  .header h1 {
+    font-size: 9vh;
+  }
 }
 
 /* MEDIA FOR EXCEPT MOBILE */
@@ -523,19 +535,15 @@ nav {
     transform-origin: bottom left;
   }
 
-
-  .logo_container{
+  .logo_container {
     width: 20vw;
     margin-left: auto;
     margin-right: auto;
   }
-  
-  .logo{
+
+  .logo {
     width: 13%;
-    
   }
-
-
 }
 
 /* ---- stats.js ---- */
