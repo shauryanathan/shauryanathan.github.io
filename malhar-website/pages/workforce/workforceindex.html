@@ -28,7 +28,7 @@
   <script src="../../js/script.js"></script>
   <script src="../../js/nav.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
-  <script src="vanta.globe.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.waves.min.js"></script>
   
 </head>
 
@@ -41,20 +41,7 @@
            <div class="card">Networking</div>
         </div>  
 
-        <script>
-          VANTA.GLOBE({
-              el: "#main",
-              mouseControls: true, //set to true to enable with mouse movement
-              touchControls: true,
-              gyroControls: true,
-              minHeight: 100.00,
-              minWidth: 100.00,
-              scale: 1,
-              scaleMobile: 1.00,
-              color: 0x966547,
-              backgroundColor: 0xf1818
-              })
-      </script>
+        
 
   <!-- Hamburger -->
   <label class="toggle">
@@ -112,7 +99,19 @@
 
 
 
-
+  <script>
+    VANTA.WAVES({
+      el: "#main",
+      mouseControls: true,
+      touchControls: true,
+      gyroControls: false,
+      minHeight: 200.00,
+      minWidth: 200.00,
+      scale: 1.00,
+      scaleMobile: 1.00,
+      color: 0x0
+    })
+    </script>
 </body>
 
 </html>
