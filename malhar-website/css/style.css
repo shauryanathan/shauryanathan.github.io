@@ -317,6 +317,19 @@ nav {
   font-size: 9vh;
 }
 
+/*iphone 12*/
+
+@media only screen 
+    and (device-width: 414px) 
+    and (device-height: 896px) 
+    and (-webkit-device-pixel-ratio: 2) {
+
+        .header h2{
+          font-size: 2vh;
+        }
+
+     }
+
 /* MEDIA FOR MOBILE ONLY */
 @media (max-width: 500px) {
   /* FOR HAMBURGER */
