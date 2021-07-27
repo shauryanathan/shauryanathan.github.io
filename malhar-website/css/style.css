@@ -468,6 +468,10 @@ nav {
   .header h1 {
     font-size: 9vh;
   }
+   
+  .header{
+    margin-top: 10vh;
+  }
 }
 
 /* MEDIA FOR EXCEPT MOBILE */
