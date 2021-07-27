@@ -399,6 +399,9 @@ nav {
   .collapse li {
     margin-top: 8%;
   }
+  p{
+      text-align: center;
+  }
 }
 
 /* MEDIA FOR EXCEPT MOBILE */
