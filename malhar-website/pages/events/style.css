@@ -476,6 +476,9 @@ a {
   p {
     text-align: center;
   }
+  .cta span{
+    margin-top: 0.4%;
+  }
 }
 
 /* MEDIA FOR EXCEPT MOBILE */
