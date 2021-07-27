@@ -451,7 +451,7 @@
 
 .section h1{
     color: #ededed;
-    font-family: 'Overpass' , sans-serif;
+    font-family: "Krona One", sans-serif;
     font-weight: light;
     text-align: center;
     padding-top: 12vh;
@@ -463,4 +463,29 @@
     .section h1{
         font-size: 4vh;
     }
+}
+
+.heading{
+    color: white;
+    font-family: "Overpass", sans-serif;
+    font-size: 4vh;
+    padding: 3%;
+    padding-left: 17%;
+    float: left;
+    margin-top: 10%;
+}
+.about{
+    color: white;
+    float: right;
+    padding-top: 2%;
+    width: 40%;
+    font-size: 2vh;
+    font-family: 'Overpass' , sans-serif;
+    margin-top: 2%;
+    text-align: center;
+    margin-right: 7%;
+}
+.about h1{
+    color: white;
+    font-family: 'Overpass' , sans-serif;
 }
