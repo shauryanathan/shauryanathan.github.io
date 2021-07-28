@@ -467,6 +467,45 @@ nav {
   padding-top: 1%;
 }
 
+.top_cards{
+  margin-top: 18vh;
+  margin-left: auto;
+  margin-right: auto;
+  height:270px;
+  width:300px;
+  background:#d33;
+  position:relative;
+  background-color: white;
+  box-shadow: 0px 15px 28px 4px rgba(0, 0, 0, 0.71);
+  -webkit-box-shadow: 0px 15px 28px 4px rgba(0, 0, 0, 0.71);
+  -moz-box-shadow: 0px 15px 28px 4px rgba(0, 0, 0, 0.71);
+}
+
+.top_cards_circle{
+  position:absolute;
+  height:180px;
+  width:180px;
+  border-radius:50%;
+  border:3px solid white;
+  left:46%;
+  margin-left:-80px;
+  top: -80px;
+  background: grey;
+}
+
+.top_cards_rect{
+  
+  height: 55px;
+  width: 250px;
+  background-color: grey;
+  position: absolute;
+  left: 8%;
+  top: 70%;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}
+
 @media (max-width: 500px) {
   .card {
     width: 60vw;
