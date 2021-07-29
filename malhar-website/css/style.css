@@ -219,6 +219,8 @@ canvas {
 
 .header h1 {
   color: white;
+  color: #FFD8B8;
+
   font-size: 10vh;
   font-family: "Overpass", sans-serif;
   animation-name: emerge;
@@ -238,6 +240,8 @@ canvas {
 }
 .header h2 {
   color: white;
+  color: #FFD8B8;
+
   font-size: 4vh;
   font-family: "Overpass", sans-serif;
   text-align: center;
@@ -254,6 +258,8 @@ canvas {
 .header h3 {
   font-family: "Overpass", sans-serif;
   color: white;
+  color: #FFD8B8;
+
   font-size: 2.5vh;
   opacity: 0;
   padding-top: 3%;
@@ -264,7 +270,6 @@ canvas {
 
 .header h3.is-showing {
   font-family: "Overpass", sans-serif;
-  color: white;
   font-size: 2.5vh;
   font-weight: lighter;
   opacity: 1;
@@ -519,7 +524,7 @@ nav {
   .hover-underline-animation {
     display: inline-block;
     position: relative;
-    color: white;
+    color: #ededed;
   }
 
   .hover-underline-animation:after {
