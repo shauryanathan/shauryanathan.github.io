@@ -524,7 +524,7 @@ nav {
   .hover-underline-animation {
     display: inline-block;
     position: relative;
-    color: #ededed;
+    color: #fff1e6;
   }
 
   .hover-underline-animation:after {
