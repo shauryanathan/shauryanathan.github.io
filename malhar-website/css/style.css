@@ -262,7 +262,7 @@ canvas {
 
   font-size: 2.5vh;
   opacity: 0;
-  padding-top: 3%;
+  padding-top: 1%;
   transition: ease-in, 2s;
   letter-spacing: 7.5px;
   font-weight: lighter;
@@ -320,6 +320,19 @@ nav {
 }
 .header h1 {
   font-size: 9vh;
+}
+
+.apply a{
+  font-size: 3vh;
+  color: black;
+}
+.apply{
+  margin-top: 1%;
+  background-color: #FFD8B8;
+  width: 20vw;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 2rem;
 }
 
 
