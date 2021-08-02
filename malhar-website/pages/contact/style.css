@@ -181,8 +181,17 @@
      visibility: hidden;
      position: absolute;
    }
+   form input{
+     transition: ease-in-out , 0.3s;
+     border-bottom: 2px solid black;
+   }
 
    /* Contact us box */
+   form input:focus{
+     outline: none;
+     border-bottom: 2px solid white;
+   }
+  
 
    h1{
      color: white;
@@ -190,13 +199,13 @@
      text-align: center;
      padding: 20% 0% 6%;
    }
-    .form{
-      padding: 6% 0% 0% 20%;
-    }
+   
     h3{
       color: white ;
       margin: 3% 0%;
       font-size: 3.7vh;
+      font-family: 'Overpass' , sans-serif;
+    font-weight: lighter;
     }
     input{
       margin: 4% 3%;
@@ -505,6 +514,56 @@
      p {
        font-size: 2vh;
        text-align: center;
+     }
+     form input{
+       text-align: center;
+       padding: 0%; 
+       margin: 0%;
+     }
+     form{
+       margin: 0%;
+       padding: 0%;
+       text-align: center;
+     }
+     input{
+       box-shadow: none;
+       outline: none;
+       border: none;
+       background-color: #242424;
+       height: 4vh;
+       width: 14vw;
+       
+     }
+     .form{
+       padding:0%;
+       margin: 0%;
+     }
+     form textarea{
+       padding: 0%;
+       margin: 0%;
+       box-shadow: none;
+       outline: none;
+       border: none;
+       background-color: #242424;
+       resize: none;
+       transition: ease-in-out , 0.3s;
+       border-bottom: 2px solid black;
+
+     }
+     form textarea:focus{
+      outline: none;
+      border-bottom: 2px solid white;
+    }
+   
+     h1{
+       padding:0%;
+       margin: 0%;
+       padding-top: 12%;
+     }
+     h3{
+       padding: 0%;
+       margin: 0%;
+       margin-top: 4%;
      }
    }
    
