@@ -262,7 +262,7 @@ canvas {
 
   font-size: 2.5vh;
   opacity: 0;
-  padding-top: 3%;
+  padding-top: 1%;
   transition: ease-in, 2s;
   letter-spacing: 7.5px;
   font-weight: lighter;
@@ -325,6 +325,7 @@ nav {
 
 
 
+
 /* MEDIA FOR MOBILE ONLY */
 @media (max-width: 500px) {
   /* FOR HAMBURGER */
@@ -337,6 +338,7 @@ nav {
   .toggle input {
     display: none;
   }
+
   .toggle input + div {
     width: 30px;
     height: 18px;
