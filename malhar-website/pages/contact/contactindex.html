@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Contact Us!</title>
-    <link rel="stylesheet" href="style.css">
-    <meta charset="utf-8" />
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact Us!</title>
+  <link rel="stylesheet" href="style.css">
+  <meta charset="utf-8" />
   <title>Malhar 2021.</title>
   <meta name="description" content="Malhar 2021 - St. Xavier's College, Mumbai " />
   <meta name="author" content="Malhar Computers Team" />
@@ -33,10 +34,11 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.waves.min.js"></script>
 
-  </head>
-  <body>
+</head>
 
-    
+<body>
+
+
   <!-- Hamburger -->
   <label class="toggle">
     <input type="checkbox" class="click">
@@ -58,7 +60,7 @@
       <path d="M22,22 L2,22 C2,11 11,2 22,2 C33,2 42,11 42,22"></path>
     </symbol>
   </svg>
-  
+
   <!-- Navbar -->
   <nav>
     <ul>
@@ -94,75 +96,56 @@
   <h1>Contact Us</h1>
   <div class="form">
     <form method="post" autocomplete="off" name="google-sheet">
-        <h3>Name:</h3>
+
+
+      <div class="flex_container">
         <div class="form-group">
-          <input
-            type="text"
-            name="Name"
-            class="form-control"
-            required
-          />
+          <input type="text" name="Name" class="form-control" required placeholder="Enter your Name" />
         </div>
-        <h3>Email:</h3>
         <div class="form-group">
-          <input
-            type="text"
-            name="Email"
-            class="form-control"
-            required
-          />
-        </div>
-        <h3>Contact Number</h3>
-        <div class="form-group">
-          <input
-            type="number"
-            name="Phone"
-            class="form-control"
-            required
-          />
-        </div>
-        
-        <h3>Message</h3>
-        <div class="form-group">
-          <textarea id="message" cols="30" rows="7"
-          name="Message"
-          class="form-control"
-          required>
-          </textarea>
+          <input type="text" name="Email" class="form-control" required placeholder="Enter your Email" />
         </div>
 
-        <div class="form-group">
-          <input
-            type="submit"
-            name="submit"
-            class="btnSubmit btn-block button"
-            id="submit_button"
-            value="Submit"
-          />
-        </div>
-      </form>
+      </div>
+     
+
+      <div class="form-group">
+        <input type="number" name="Phone" class="form-control" required placeholder="Enter your Mobile No." />
+      </div>
+
+
+      <div class="form-group">
+        <textarea id="message" cols="30" rows="7" name="Message" class="form-control" required>
+          </textarea>
+      </div>
+
+      <div class="form-group">
+        <input type="submit" name="submit" class="btnSubmit btn-block button" id="submit_button" value="Submit" />
+      </div>
+    </form>
 
   </div>
 
 
-        
 
-    <script>
-      const scriptURL =
-        "https://script.google.com/macros/s/AKfycbxUbj2BYjV77hI-2Fe2ax3Sl2vblGjAswshvWPE9-dYvn7nsJX9TUrGTVeS7uaryscf/exec";
-      const form = document.forms["google-sheet"];
 
-      form.addEventListener("submit", (e) => {
-        e.preventDefault();
-        fetch(scriptURL, { method: "POST", body: new FormData(form) })
-          .then((response) =>
-            alert("Thank you for contacting us, we will get back to you soon!")
-          )
-          .catch((error) => console.error("Error!", error.message));
-      });
-    </script>
+  <script>
+    const scriptURL =
+      "https://script.google.com/macros/s/AKfycbxUbj2BYjV77hI-2Fe2ax3Sl2vblGjAswshvWPE9-dYvn7nsJX9TUrGTVeS7uaryscf/exec";
+    const form = document.forms["google-sheet"];
 
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  </body>
+    form.addEventListener("submit", (e) => {
+      e.preventDefault();
+      fetch(scriptURL, { method: "POST", body: new FormData(form) })
+        .then((response) =>
+          alert("Thank you for contacting us, we will get back to you soon!")
+        )
+        .catch((error) => console.error("Error!", error.message));
+    });
+  </script>
+
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</body>
+
 </html>
