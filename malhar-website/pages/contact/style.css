@@ -197,10 +197,12 @@
    }
 
    h1{
+    font-family: "Krona One", sans-serif;
      color: white;
-     font-size: 6vh;
+     font-size: 4vh;
      text-align: center;
      padding: 20% 0% 6%;
+
    }
    
     h3{
@@ -218,27 +220,27 @@
     }
 
     textarea{
-      margin: 4% 3%;
       background-color: #242424;
       border: none;
       outline: none;
       border-bottom: 2px solid black;
       
+      
     }
     form textarea:focus{
       outline: none;
       border-bottom: 2px solid white;
+      transform: translateY(-4px);
+
     }
     .button{
       padding: 3% 15%;
       text-align: center;
-      margin: 6% 18%;
-      border-radius: 7px;
-      background-color: #b4ccc5;
-      border: none;
     }
     .button:hover{
-      background-color: #116466;
+      background-color: white;
+      color: black;
+      cursor: pointer;
     }
  
    /* MEDIA FOR MOBILE ONLY */
@@ -428,6 +430,15 @@
   p {
     text-align: center;
   } 
+  textarea{
+    resize: none;
+  }
+  .button{
+    background: none;
+    color: white;
+    border: solid white 2px;
+    border-radius: 0%;
+  }
    
    /* MEDIA FOR EXCEPT MOBILE */
     @media (min-width: 500px) {
@@ -556,7 +567,6 @@
        margin: 0%;
      }
      form textarea{
-       padding: 0% 6%;
        margin: 2%;
        box-shadow: none;
        outline: none;
@@ -565,17 +575,23 @@
        resize: none;
        transition: ease-in-out , 0.3s;
        border-bottom: 2px solid black;
-
+       color: white;
+       font-family: sans-serif;
+       padding: 1%;
      }
      form textarea:focus{
       outline: none;
       border-bottom: 2px solid white;
     }
-   
+    form input:focus{
+      transform: translateY(-4px);
+
+    }
      h1{
        padding:0%;
        margin: 0%;
-       padding-top: 12%;
+       padding-top: 9%;
+       font-size: 4vh;
      }
      h3{
        padding: 0%;
@@ -588,6 +604,16 @@
        justify-content: center;
        gap: 1%;
        margin: 2%;
+     }
+     .button{
+       display: block;
+       padding: 0%;
+       font-family: 'Overpass' , sans-serif;
+       margin-left: auto;
+       margin-right: auto;
+     }
+     form input{
+       padding-left: 3%;
      }
 
      
