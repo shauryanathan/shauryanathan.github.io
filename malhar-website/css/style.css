@@ -322,18 +322,6 @@ nav {
   font-size: 9vh;
 }
 
-.apply a{
-  font-size: 3vh;
-  color: black;
-}
-.apply{
-  margin-top: 1%;
-  background-color: #FFD8B8;
-  width: 20vw;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 2rem;
-}
 
 
 
@@ -350,6 +338,7 @@ nav {
   .toggle input {
     display: none;
   }
+
   .toggle input + div {
     width: 30px;
     height: 18px;
