@@ -333,6 +333,7 @@ nav {
   height: 0vh;
   width: 100vw;
   background-color: #111111;
+
   position: fixed;
   z-index: 5;
   transition: ease-in-out, 0.2s;
