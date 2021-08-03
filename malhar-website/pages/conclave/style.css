@@ -160,7 +160,8 @@
    body {
      width: 100%;
      height: 100%;
-    background-image: url("./what-the-hex-dark.png");
+     background-image: url("./what-the-hex-dark.png");
+     background-attachment: fixed;
    }
    
    html {
@@ -236,6 +237,7 @@
     background-position: center;
     background-size: 180% , 180%;
     background-repeat: no-repeat;
+
   }
    
    .box{
@@ -273,7 +275,7 @@
    @media (max-width: 500px) {
      /* FOR HAMBURGER */
      .toggle {
-       position: absolute;
+       position:fixed;
        cursor: pointer;
        z-index: 7;
        margin: 8% 5%;
