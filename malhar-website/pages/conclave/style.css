@@ -226,13 +226,12 @@
   } 
 
   .image{
-    width: 200px;
-    height: 200px;
+    width: 50vw;
+    height: 30vh;
     position: absolute;
-    background-color: red;
     margin-top: -15%;
-    left: 50%;
-    margin-left: -27%;
+  
+    margin-left: 25vw;
     background-image: url(https://i.kym-cdn.com/entries/icons/original/000/016/546/hidethepainharold.jpg);
     background-position: center;
     background-size: 180% , 180%;
@@ -255,7 +254,7 @@
      text-align: center;
      z-index: 10s;
      font-size: 4vh;
-     margin-top: 50%;
+     margin-top: 58%;
      font-weight: lighter;
      font-family: 'Overpass' , sans-serif;
    }
