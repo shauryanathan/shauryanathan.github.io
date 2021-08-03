@@ -225,6 +225,50 @@
     text-align: center;
   } 
 
+  .image{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    background-color: red;
+    margin-top: -15%;
+    left: 50%;
+    margin-left: -27%;
+    background-image: url(https://i.kym-cdn.com/entries/icons/original/000/016/546/hidethepainharold.jpg);
+    background-position: center;
+    background-size: 180% , 180%;
+    background-repeat: no-repeat;
+  }
+   
+   .box{
+     width: 80vw;
+     height: 60vh;
+     background-color:black;
+     border: 1px solid white;
+     margin-left: auto;
+     margin-right: auto;
+   }
+   .section{
+     padding-top: 45%;
+   }
+   .box h3{
+     color: white;
+     text-align: center;
+     z-index: 10s;
+     font-size: 4vh;
+     margin-top: 50%;
+     font-weight: lighter;
+     font-family: 'Overpass' , sans-serif;
+   }
+   .box p{
+     color: white;
+     padding: 8%;
+     font-size: 2vh;
+     font-family: 'Overpass' , sans-serif;
+   }
+  
+
+   
+
    
    /* MEDIA FOR MOBILE ONLY */
    @media (max-width: 500px) {
@@ -371,48 +415,7 @@
      }
      
    }
-  .image{
-    width: 200px;
-    height: 200px;
-    position: absolute;
-    background-color: red;
-    margin-top: -15%;
-    left: 50%;
-    margin-left: -27%;
-    background-image: url(https://i.kym-cdn.com/entries/icons/original/000/016/546/hidethepainharold.jpg);
-    background-position: center;
-    background-size: 180% , 180%;
-    background-repeat: no-repeat;
-  }
-   
-   .box{
-     width: 80vw;
-     height: 60vh;
-     background-color:black;
-     border: 1px solid white;
-     margin-left: auto;
-     margin-right: auto;
-   }
-   .section{
-     padding-top: 45%;
-   }
-   .box h3{
-     color: white;
-     text-align: center;
-     z-index: 10s;
-     font-size: 4vh;
-     margin-top: 50%;
-     font-weight: lighter;
-     font-family: 'Overpass' , sans-serif;
-   }
-   .box p{
-     color: white;
-     padding: 8%;
-     font-size: 2vh;
-     font-family: 'Overpass' , sans-serif;
-   }
-
-   
+ 
    
    /* MEDIA FOR EXCEPT MOBILE */
     @media (min-width: 500px) {
