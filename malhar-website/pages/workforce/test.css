@@ -184,7 +184,7 @@
        width: 100%;
        position: absolute;
        text-align: center;
-       padding-top: 8%;
+       padding-top: 5%;
    }
    .title h1{
        font-weight: lighter;
@@ -382,6 +382,13 @@
   .cta span{
     margin-top: 0.4%;
   }
+
+  .title{
+    padding-top: 13%;
+  }
+
+
+  
 }
 
 
@@ -416,6 +423,7 @@ body {
   height: 400px;
   transition: all 0.3s;
   margin-top: 6%;
+
 }
 @media screen and (max-width: 992px) {
   .blog-slider {
@@ -427,8 +435,9 @@ body {
   .blog-slider {
     min-height: 500px;
     height: auto;
-    margin: 180px auto;
+    margin: 200px auto;
   }
+
 }
 @media screen and (max-height: 500px) and (min-width: 992px) {
   .blog-slider {
