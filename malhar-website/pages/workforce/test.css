@@ -178,7 +178,18 @@
    }
    
    /* OUR CSS */
-   
+   .title{
+       color: white;
+       font-family: 'Overpass' , sans-serif;
+       width: 100%;
+       position: absolute;
+       text-align: center;
+       padding-top: 8%;
+   }
+   .title h1{
+       font-weight: lighter;
+       font-size: 8vh;
+   }
    nav {
      visibility: hidden;
      position: absolute;
@@ -381,9 +392,16 @@
 
 body {
   background-color: black;
-  min-height: 100vh;
+  /*min-height: 100vh;*/
+  height: 250%;
   font-family: "Fira Sans", sans-serif;
   display: flex;
+}
+@media(max-width:500px){
+    body{
+        height: 365%;
+    }
+  
 }
 
 .blog-slider {
@@ -569,7 +587,11 @@ body {
 }
 .main{
   margin-top: 20%;
-  margin-left: -5vw;
+  position: absolute;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  
 }
 
 .blog-slider__button {
