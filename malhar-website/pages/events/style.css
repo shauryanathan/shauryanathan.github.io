@@ -178,6 +178,7 @@ canvas {
 }
 
 /* OUR CSS */
+
 .to_be_logo{
   height: 25vh;
 }
@@ -602,7 +603,7 @@ a {
   }
 
   .to_be_logo {
-    width: 50%;
+    width: 40%;
     margin: 0%;
     padding: 0%;
   }
@@ -650,5 +651,6 @@ a {
   p {
     font-size: 2vh;
     text-align: center;
+    width: 50vw;
   }
 }
