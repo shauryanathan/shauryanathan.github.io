@@ -566,9 +566,39 @@ a {
   }
 
   .to_be_logo {
-    width: 40%;
+    width: 50%;
     margin: 0%;
     padding: 0%;
+  }
+  .one{
+    background-image: url(./la.png);
+    background-position: center;
+    background-size: 30% , 30%;
+    background-repeat: no-repeat;
+  }
+  .two{
+    background-image: url(./pa.png);
+    background-position: center;
+    background-size: 30% , 30%;
+    background-repeat: no-repeat;
+  }
+  .three{
+    background-image: url(./fa.png);
+    background-position: center;
+    background-size: 30% , 30%;
+    background-repeat: no-repeat;
+  }
+  .four{
+    background-image: url(./conc.png);
+    background-position: center;
+    background-size: 30% , 30%;
+    background-repeat: no-repeat;
+  }
+  .five{
+    background-image: url(./esp.png);
+    background-position: center;
+    background-size: 30% , 30%;
+    background-repeat: no-repeat;
   }
 
   .info {
