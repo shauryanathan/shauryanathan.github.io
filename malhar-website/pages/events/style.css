@@ -178,6 +178,39 @@ canvas {
 }
 
 /* OUR CSS */
+.to_be_logo{
+  height: 25vh;
+}
+.one{
+  background-image: url(./la.png);
+  background-position: center;
+  background-size: 50% , 50%;
+  background-repeat: no-repeat;
+}
+.two{
+  background-image: url(./pa.png);
+  background-position: center;
+  background-size: 50% , 50%;
+  background-repeat: no-repeat;
+}
+.three{
+  background-image: url(./fa.png);
+  background-position: center;
+  background-size: 50% , 50%;
+  background-repeat: no-repeat;
+}
+.four{
+  background-image: url(./conc.png);
+  background-position: center;
+  background-size: 50% , 50%;
+  background-repeat: no-repeat;
+}
+.five{
+  background-image: url(./esp.png);
+  background-position: center;
+  background-size: 50% , 50%;
+  background-repeat: no-repeat;
+}
 
 nav {
   visibility: hidden;
@@ -194,7 +227,7 @@ nav {
 .events {
   font-size: 4vh;
   text-align: center;
-  margin: 15% 0%;
+  margin: 8% 0%;
   font-family: "Krona One", sans-serif;
 }
 
@@ -206,7 +239,8 @@ nav {
 
 .to_be_logo {
   text-align: center;
-  margin: 15% 0% 25%;
+  margin: 1 0% 25%;
+
   font-size: 3vh;
 }
 .info {
@@ -219,6 +253,7 @@ nav {
   font-size: 4vh;
   text-align: center;
   padding: 10% 0% 6%;
+  padding-top: 0%;
 }
 /* For button */
 html,
@@ -241,7 +276,7 @@ a {
   position: relative;
   margin: auto;
   padding: 19px 22px;
-  margin-top: 5%;
+  margin-top: 12%;
   transition: all 0.2s ease;
 }
 .cta:before {
@@ -461,6 +496,7 @@ a {
     color: white;
     font-size: 2.5vh;
   }
+  
 
   .collapse ul {
     transform: translateY(-20px);
