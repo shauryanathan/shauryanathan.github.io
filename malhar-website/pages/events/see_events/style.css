@@ -177,13 +177,70 @@
    }
    
    /* OUR CSS */
-   .cards-main{
-    width: 100%;
-    padding-top: 20%;
+  .first{
+    opacity: 0;
+    z-index: -10000;
+    transition: ease-in-out , 0.3s;
+  }
+  .first.is-clicked{
+    opacity: 1;
+    z-index: 10000;
+  }
+  .second{
+    opacity: 0;
+    z-index: -10000;
+    transition: ease-in-out , 0.3s;
+  }
+  .second.is-clicked{
+    opacity: 1;
+    z-index: 10000;
+  }
+.button{
+  box-shadow: none;
+  outline: none;
+  border: none;
+  color: #ffff;
+  padding: 2%;
+  margin-top: 5%;
+  font-family: 'Overpass' , sans-serif;
+  font-size: 2vh;
+  background-color:  rgb(3, 53, 29);
 }
+.modal{
+  height: 100vh;
+  width: 100vw;
+  background-color: #000000;
+  padding: 0;
+  margin: 0;
+  position: fixed;
+  margin-top: -20%;
+  text-align: center;
+  color: white;
+}
+
+.modal img{
+  width: 5%;
+  padding: 0;
+  margin: 0;
+  margin-left: 80%;
+  margin-top: 8%;
+}
+
+.modal p{
+  font-family: 'Overpass' , sans-serif;
+  font-size: 2vh;
+  margin-top: 50%;
+  padding: 2%;
+}
+
+
+
 .cards-main{
-    padding-bottom: 10%;
+  width: 100%;
+  padding-top: 20%;
 }
+
+
 .card{
     text-align: center;
     font-family: 'Overpass' , sans-serif;
@@ -212,7 +269,7 @@
 }
 .card p{
     font-size: 2vh;
-    border: 2px solid rgb(3, 53, 29);;
+    border: 2px solid rgb(3, 53, 29);
     display: block;
     width: 65%;
     margin-left: auto;
